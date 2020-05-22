@@ -1,0 +1,5 @@
+[
+    {"opCode":"01","opName":"权限管理", "opHref":"/admin/auth","opSeq":1,"opDesc":"权限管理菜单"},
+    {"opCode":"02","opName":"整合技术", "opHref":"/admin/tech","opSeq":1,"opDesc":"整合技术菜单"},
+    {"opCode":"03","opName":"日志管理", "opHref":"/admin/log","opSeq":1,"opDesc":"日志管理菜单"}
+]

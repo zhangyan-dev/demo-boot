@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xe.demo.mapper.IFileMapper">
+	<resultMap id="BaseResultMap" type="com.xe.demo.model.IFile">
+		<id column="id" jdbcType="INTEGER" property="id" />
+		<result column="filename" jdbcType="VARCHAR" property="filename" />
+		<result column="nowname" jdbcType="VARCHAR" property="nowname" />
+		<result column="url" jdbcType="VARCHAR" property="url" />
+		<result column="filetype" jdbcType="VARCHAR" property="filetype" />
+		<result column="filesize" jdbcType="BIGINT" property="filesize" />
+		<result column="addtime" jdbcType="VARCHAR" property="addtime" />
+	</resultMap>
+</mapper>
